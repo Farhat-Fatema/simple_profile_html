@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .navbar-custom {
+      background-color: #007bff;
+    }
+    .navbar-custom .navbar-brand, .navbar-custom .nav-link {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+  <a class="navbar-brand" href="#">My Profile</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+      <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Profile Section -->
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8 text-center">
+      <div class="card shadow-lg">
+        <div class="card-body">
+          <img src="https://via.placeholder.com/150" alt="Profile Image" class="profile-img mb-3">
+          <h3 class="card-title">FARHAT FATEMA JAMENI</h3>
+          <p class="card-text text-muted">Software Engineer | Tech Enthusiast | Blogger</p>
+          <p class="card-text">Hello! I'm Farhat Fatema Jameni, a passionate software engineer who loves creating innovative solutions. Connect with me!</p>
+          <div>
+            <a href="#" class="btn btn-primary btn-sm"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="#" class="btn btn-info btn-sm"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="#" class="btn btn-dark btn-sm"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- About Section -->
+<section id="about" class="mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>About Me</h3>
+        <p>I am a software engineer with over 5 years of experience in web development, cloud computing, and AI. I am committed to building scalable and efficient applications that solve real-world problems.</p>
+      </div>
+      <div class="col-md-6">
+        <h3>Experience</h3>
+        <ul class="list-group">
+          <li class="list-group-item">Full-Stack Developer at TechCorp</li>
+          <li class="list-group-item">AI Specialist at InnovateAI</li>
+          <li class="list-group-item">Web Developer at CodeWorks</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="mt-5">
+  <div class="container">
+    <h3 class="text-center">Skills</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <h5>HTML/CSS</h5>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 90%;">90%</div>
+        </div>
+        <h5>JavaScript</h5>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-info" role="progressbar" style="width: 80%;">80%</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h5>Python</h5>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;">75%</div>
+        </div>
+        <h5>React</h5>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 85%;">85%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="mt-5 mb-5">
+  <div class="container">
+    <h3 class="text-center">Contact Me</h3>
+    <form>
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Your Email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2024 Farhat. All Rights Reserved.</p>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
